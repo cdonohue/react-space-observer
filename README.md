@@ -49,7 +49,7 @@ Let's use a `SpaceObserver` to change a component style at a certain width:
 </SpaceObserver>
 ```
 
-As the component's geometry changes, the `width` is reported back and we are given a chance to conditionally render. Above we changed the background color from red to blue.
+As the component's geometry changes, the `width` is reported back and we are given a chance to conditionally render. Above, we changed the background color from red to blue.
 
 ### How does it work?
 
