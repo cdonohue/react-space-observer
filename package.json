@@ -1,0 +1,30 @@
+{
+  "name": "react-space-observer",
+  "version": "0.0.1",
+  "main": "dist/react-space-observer.js",
+  "umd:main": "dist/react-space-observer.umd.js",
+  "description": "ResizeObserver react component with polyfill support",
+  "repository": "https://github.com/cdonohue/react-space-observer.git",
+  "author": "Chad Donohue <chad.donohue@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle -i src/SpaceObserver.js",
+    "start": "docz dev"
+  },
+  "dependencies": {
+    "resize-observer-polyfill": "~1.5.1"
+  },
+  "devDependencies": {
+    "docz": "~0.13.7",
+    "docz-theme-default": "~0.13.7",
+    "microbundle": "~0.11.0"
+  },
+  "peerDependencies": {
+    "react": "~16.8.4",
+    "react-dom": "~16.8.4"
+  }
+}

@@ -1,0 +1,26 @@
+---
+name: Space Observer
+route: /
+---
+
+# Space Observer
+
+import { Playground } from "docz"
+import SpaceObserver from "../src/SpaceObserver"
+
+<Playground>
+  <SpaceObserver>
+    {({ width }) => (
+      <div
+        style={{
+          borderRadius: ".2rem",
+          padding: "2rem",
+          color: "white",
+          backgroundColor: width >= 568 ? "dodgerblue" : "firebrick",
+        }}
+      >
+        Hi
+      </div>
+    )}
+  </SpaceObserver>
+</Playground>
