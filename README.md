@@ -2,6 +2,8 @@
 
 > A ResizeObserver react component with polyfill support
 
+[![npm version](https://badge.fury.io/js/react-space-observer.svg)](https://badge.fury.io/js/react-space-observer)
+
 ### Getting Started
 
 Add `react-space-observer` to your project using `yarn` or `npm`
